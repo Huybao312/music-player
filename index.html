@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Player - Dark UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- =============== SIDEBAR =============== -->
+    <aside class="sidebar">
+      <div class="logo"><div class="dot"></div> Circle</div>
+      <nav class="nav">
+        <h5>Menu</h5>
+        <a class="active" href="#"><span class="ico">🏠</span> Home</a>
+        <a href="#"><span class="ico">🔎</span> Search</a>
+        <a href="#"><span class="ico">🎧</span> Playlists</a>
+        <a href="#"><span class="ico">🔔</span> Notifications</a>
+        <a href="#"><span class="ico">⭐</span> Premium Content</a>
+      </nav>
+      <div class="spacer"></div>
+      <div class="download small">Tải ứng dụng Desktop</div>
+      <div class="profile">
+        <div class="me"><div class="avatar">JT</div> Jonathon Trott</div>
+        <div class="small muted">⏷</div>
+      </div>
+    </aside>
+
+    <!-- =============== MAIN =============== -->
+    <main class="main">
+      <div class="chips">
+        <span class="chip active">Music</span>
+        <span class="chip">Podcasts</span>
+        <span class="chip">Jazz</span>
+        <span class="chip">Electronic</span>
+        <span class="chip">Rock Classic</span>
+        <span class="chip">Hip Hop</span>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Popular Albums</div>
+        <div class="cards">
+          <article class="card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="title">Dẫu có lỗi lầm</div>
+              <div class="muted small">Huy Bảo</div>
+              <div class="meta"><span>1 Tracks</span><span>100K Likes</span></div>
+              <div class="actions"><button class="btn">♡</button><button class="btn">▶</button></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="title">Đau dạ dày</div>
+              <div class="muted small">Liu sino</div>
+              <div class="meta"><span>1 Tracks</span><span>31K Likes</span></div>
+              <div class="actions"><button class="btn">♡</button><button class="btn">▶</button></div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb"></div>
+            <div class="body">
+              <div class="title">Đánh đổi</div>
+              <div class="muted small">OBITO</div>
+              <div class="meta"><span>12 Tracks</span><span>50K Likes</span></div>
+              <div class="actions"><button class="btn">♡</button><button class="btn">▶</button></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Picked for you</div>
+        <div class="picked">
+          <div class="photo">🎧</div>
+          <div class="info">
+            <div class="pill">PLAYLIST</div>
+            <div class="title">New Music Friday VietNam</div>
+            <div class="muted small">Listen to the fresh new music from VietNam and around the world.</div>
+            <div class="muted small">03:21:23 · 1.3M Likes · 32 Tracks</div>
+          </div>
+          <button class="play">▶ Play</button>
+        </div>
+      </div>
+
+      <div class="section recent">
+        <div class="section-title">Recent</div>
+        <div class="track">
+          <div class="badge">1</div>
+          <div>
+            <div class="title">Đau dạ dày</div>
+            <div class="t-artist">Liu Sino</div>
+          </div>
+          <div class="t-artist">Đau dạ dày</div>
+          <div class="t-artist">04:32</div>
+          <div class="t-artist">⋯</div>
+        </div>
+        <div class="track">
+          <div class="badge">2</div>
+          <div>
+            <div class="title">Dẫu có lỗi lầm</div>
+            <div class="t-artist">Huy Bảo</div>
+          </div>
+          <div class="t-artist">—</div>
+          <div class="t-artist">03:12</div>
+          <div class="t-artist">⋯</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- =============== RIGHT BAR =============== -->
+    <aside class="rightbar">
+      <div class="section">
+        <div class="section-title">Popular Artists</div>
+        <div class="grid-circles">
+          <div class="circle-card"><div class="circle"></div><div class="small">Sơn Tùng Ôm em đi</div></div>
+          <div class="circle-card"><div class="circle"></div><div class="small">OBITO</div></div>
+          <div class="circle-card"><div class="circle"></div><div class="small">MCK</div></div>
+          <div class="circle-card"><div class="circle"></div><div class="small">anh tuấn cuồi</div></div>
+          <div class="circle-card"><div class="circle"></div><div class="small">Travis Scott</div></div>
+          <div class="circle-card"><div class="circle"></div><div class="small">Anh Huy Bảo</div></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Top Podcasts</div>
+        <div class="podcasts">
+          <div class="pod-card"></div>
+          <div class="pod-card"></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Next in Queue</div>
+        <div class="queue">
+          <div class="queue-item">
+            <div class="like">♥</div>
+            <div>
+              <div class="title">Chúng ta không thuộc về nhau</div>
+              <div class="t-artist">Sơn Tùng Ôm-Em-Đi</div>
+            </div>
+            <div class="t-artist">04:32</div>
+            <div class="t-artist">⠿</div>
+          </div>
+          <div class="queue-item">
+            <div class="like">♡</div>
+            <div>
+              <div class="title">Đánh đổi</div>
+              <div class="t-artist">OBITO</div>
+            </div>
+            <div class="t-artist">04:32</div>
+            <div class="t-artist">⠿</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- =============== PLAYER =============== -->
+    <footer class="player">
+      <div class="now">
+        <div class="cover"></div>
+        <div class="meta">
+          <div class="title">Đau dạ dày</div>
+          <div class="small muted">Liu Sony</div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="control">⟲</div>
+        <div class="control">⏮</div>
+        <div class="control" style="background:var(--play); color:#0d1b0f;">▶</div>
+        <div class="control">⏭</div>
+        <div class="control">⤿</div>
+      </div>
+
+      <div class="seek" title="timeline"></div>
+
+      <div class="volume">
+        <div class="small muted">🔊</div>
+        <div class="bar"></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
