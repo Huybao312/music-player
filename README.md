@@ -1,14 +1,15 @@
-## Music Player – HTML & CSS Layout (Ex2)
-_Những update có trong EX2 : 
-  + Responsive UI: 3 breakpoint (900px, 720px, 540px)
-  + Transitions: hover cho card, button, track, control
-  + Animations: pulse cho nút Play, float cho hero artwork, shimmer cho seek bar
+# 🎵 Music Player – HTML & CSS Layout (Ex2)
 
-_ Files
+##  Những update trong Ex2
+- Responsive UI: 3 breakpoint (900px, 720px, 540px)
+- Transitions: hover cho card, button, track, control
+- Animations: pulse cho nút Play, float cho hero artwork, shimmer cho seek bar
+
+## 📁 Cấu trúc
 ├─ index.html
 ├─ style.css
-└─ assets/ # ảnh screenshot để chèn dưới
+└─ assets/
+└─ screenshot.png
 
-_ Ảnh giao diện
-  ![Final UI](assets/screenshot.png)
-  
+##  Ảnh giao diện cuối
+![Final UI](./assets/screenshot.png)
