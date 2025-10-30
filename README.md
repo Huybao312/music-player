@@ -6,9 +6,12 @@
 - Animations: pulse cho nút Play, float cho hero artwork, shimmer cho seek bar
 
 ## 📁 Cấu trúc
-├─ index.html
+├─ index.html  
+
 ├─ style.css
+
 └─ assets/
+
 └─ screenshot.png
 
 ##  Ảnh giao diện cuối
